@@ -1,0 +1,16 @@
+{
+  "navigation" : [
+    {
+      "label": "About",
+      "path": "/"
+    },
+    {
+      "label": "Experience",
+      "path": "/experience"
+    },
+    {
+      "label": "Projects",
+      "path": "/projects"
+    }
+  ]
+}
