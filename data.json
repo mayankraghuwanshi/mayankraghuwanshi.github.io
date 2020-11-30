@@ -32,5 +32,9 @@
       "description": "I have done bachelor of Technology from Guru Gobind Singh Indraprastha University, Delhi in Information Technology.",
       "path" : "/education"
     }
+  ],
+  "Skills": [
+    "Java","JavaScript","Python","React.js","Node.js","Redux.js","GraphQL","MySql","MongoDB","Spring-Boot","Hibernate","Spring-Security","Passport.js","Gatsby","CSS3","HTML5","Bootstrap",
+    "JQuery","Docker","Docker-Compose","Kubernetes","Linux"
   ]
 }

@@ -3,24 +3,26 @@ import styled from 'styled-components'
 export const UserWrapper = styled.div`
   margin: 10% auto;
 `;
-export const UserTitle = styled.h1`
-  font-size: 4.2em;
-  font-weight: bold;
-  color: #ffffff;
-  span{
-    color: #00a69c;
-  }
-  @media (max-width: 700px) {
-    font-size: 3em;
-  }
-`;
+
 export const UserDescription = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
   margin-bottom: 10%;
   
-  span{
+  h1{
+    font-size: 4.2em;
+    font-weight: bold;
+    color: #ffffff;
+    span{
+      color: #00a69c;
+    }
+    @media (max-width: 700px) {
+      font-size: 3em;
+    }
+  }
+  
+  #hand-shake{
     animation-name: mymove;
     display: inline-block ;
     animation-duration: 3s;
@@ -48,8 +50,9 @@ export const UserDescription = styled.div`
     line-height: 1.3;
     margin-bottom: 15%;
   }
-  img{
+  canvas{
     max-width: 50%;
+    // overflow: auto;
   }
   @media (max-width: 700px) {
     flex-direction: column-reverse;
@@ -60,7 +63,13 @@ export const UserDescription = styled.div`
       max-width: 100%;
       font-size: 19px;
     }
+    canvas{
+     
+      display : block;
+      margin : auto;
+    }
   }
+  
 `;
 export const DownloadButton = styled.a`
   width: 298px;

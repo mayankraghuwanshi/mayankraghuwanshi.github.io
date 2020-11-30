@@ -2,25 +2,25 @@ import React from "react";
 import AboutBox from "../components/about/AboutBox"
 import {
   UserWrapper,
-  UserTitle,
   UserDescription,
   DownloadButton,
   UserTopic,
 } from "../components/about/AboutStyle";
 
-import {UserTopics} from '../../data.json'
+import {UserTopics,Skills} from '../../data.json'
+import Canvas from "../components/canvas"
 
 const IndexPage = () => {
   return (
     <>
       <UserWrapper>
-        <UserTitle>
-          Mayank <span>Raghuvanshi</span>
-        </UserTitle>
         <UserDescription>
           <div>
+            <h1>
+              Mayank <span>Raghuvanshi</span>
+            </h1>
             <p>
-              Hello there, <span>&#9995;&#127995;</span>  welcome to my portfolio. I am a Full Stack Developer,Tech Enthusiast and a Bathroom singer
+              Hello there, <span id="hand-shake">&#9995;&#127995;</span>  welcome to my portfolio. I am a Full Stack Developer,Tech Enthusiast and a Bathroom singer
               based out of Gudgaon.
             </p>
             <DownloadButton
@@ -31,6 +31,12 @@ const IndexPage = () => {
               Download Resume
             </DownloadButton>
           </div>
+          <Canvas
+            skills={Skills}
+            height="400px"
+            width="400px"
+            textColour="#00a69c"
+          />
         </UserDescription>
         <UserTopic>
           {

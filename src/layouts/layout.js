@@ -24,25 +24,27 @@ const Wrapper = styled.div`
 `;
 
 
-const Layout = ({ children }) => (
-  <>
-    <Location>
-      {({ location }) => {
-        return (
-          <Wrapper
-            className={
-              location.pathname === "/"
-                ? "cutBackground"
-                : ""
-            }
-          ><Navbar/>
-            {children}
-          </Wrapper>
-        )
-      }}
-    </Location>
-  </>
-)
+const Layout = ({ children }) => {
+    return (
+      <>
+        <Location>
+          {({ location }) => {
+            return (
+              <Wrapper
+                className={
+                  location.pathname === "/"
+                    ? "cutBackground"
+                    : ""
+                }
+              ><Navbar/>
+                {children}
+              </Wrapper>
+            )
+          }}
+        </Location>
+      </>
+    )
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired
