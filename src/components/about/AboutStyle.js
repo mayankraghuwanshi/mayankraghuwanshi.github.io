@@ -19,6 +19,27 @@ export const UserDescription = styled.div`
   align-items: flex-start;
   justify-content: space-evenly;
   margin-bottom: 10%;
+  
+  span{
+    animation-name: mymove;
+    display: inline-block ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+    
+  @keyframes mymove {
+      0% {
+          transform: rotate(-10deg);
+      }
+      50% {
+          transform: rotate(-30deg);
+      }
+      100%{
+          transform: rotate(-10deg);
+      }
+    }
+  
+
   p{
     color: #ffffff;
     max-width: 90%;

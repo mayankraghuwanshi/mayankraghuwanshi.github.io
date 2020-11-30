@@ -11,8 +11,7 @@ const Box = styled.div`
             0 3px 1px -2px rgba(0,0,0,0.12),
             0 1px 5px 0 rgba(0,0,0,0.2);
   padding: 3% 2%;
-  margin-right: 3%;
-  margin-bottom: 3%;
+  margin: 1%;
   width: 30%;
   max-width: 340px;
   display: flex;
@@ -29,7 +28,7 @@ const Box = styled.div`
   }
   a{
     margin-top: auto;
-    color: #7fa1e8;
+    color: #00a69c;
     text-decoration: none;
   }
   @media (max-width: 700px) {

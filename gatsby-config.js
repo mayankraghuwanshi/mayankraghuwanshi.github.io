@@ -10,6 +10,5 @@ module.exports = {
     'gatsby-plugin-styled-components'
 
   ],
-  pathPrefix: "/mayankraghuwanshi.github.io",
 
 }

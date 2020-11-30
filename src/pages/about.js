@@ -1,4 +1,5 @@
 import React from "react";
+import AboutBox from "../components/about/AboutBox"
 import {
   UserWrapper,
   UserTitle,
@@ -6,6 +7,8 @@ import {
   DownloadButton,
   UserTopic,
 } from "../components/about/AboutStyle";
+
+import {UserTopics} from '../../data.json'
 
 const IndexPage = () => {
   return (
@@ -17,9 +20,8 @@ const IndexPage = () => {
         <UserDescription>
           <div>
             <p>
-              Hello there, welcome to my portfolio. I am a front
-              end developer, visual artist and an animal lover
-              based out of Bangalore.
+              Hello there, <span>&#9995;&#127995;</span>  welcome to my portfolio. I am a Full Stack Developer,Tech Enthusiast and a Bathroom singer
+              based out of Gudgaon.
             </p>
             <DownloadButton
               href="link_to_resume"
@@ -30,6 +32,12 @@ const IndexPage = () => {
             </DownloadButton>
           </div>
         </UserDescription>
+        <UserTopic>
+          {
+            UserTopics.map((item) => (
+            <AboutBox key={item.id} info={item} />
+          ))}
+        </UserTopic>
       </UserWrapper>
     </>
   );
