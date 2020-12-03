@@ -1,5 +1,4 @@
 html {
-    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -199,8 +198,8 @@ html {
     box-sizing: inherit;
 }
 body {
-    color: hsla(0, 0%, 0%, 0.8);
-    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;;
+    color: white;
+    font-family: 'Source Sans Pro';
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;
@@ -230,7 +229,7 @@ h1 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    /*font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;*/
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 2.25rem;
@@ -246,7 +245,7 @@ h2 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    /*font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;*/
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.62671rem;
@@ -262,7 +261,7 @@ h3 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    /*font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;*/
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.38316rem;
@@ -278,7 +277,7 @@ h4 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    /*font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;*/
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1rem;
@@ -294,7 +293,7 @@ h5 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    /*font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;*/
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 0.85028rem;
@@ -310,7 +309,7 @@ h6 {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    /*font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;*/
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 0.78405rem;
@@ -614,8 +613,10 @@ pre tt:after {
     content: "";
 }
 div,p{
-    font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    /*font-family: "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;*/
 }
+
+
 .Wrapper{
     background-color: #081736;
     width: 100%;
@@ -630,31 +631,7 @@ div,p{
 div.cutBackground{
     height: 113vh;
 }
-.defaultFooter{
-    box-sizing: border-box;
-    text-align: center;
-}
-.defaultFooter p {
-    color: #0f1645;
-}
-.defaultFooter a {
-    color: #7fa1e8;
-    font-weight: bold;
-    text-decoration: none;
-}
-.footerAbsolute{
-    margin: 8% auto 0;
-    text-align: CENTER;
-    bottom: 0;
-    margin: 0 -8% -5% -8%;
-    position: absolute;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #eeeeee;
-}
-div.footerInitial{
-    position: inherit;
-}
+
 @media only screen and (max-width: 480px) {
     html {
         font-size: 100%;
@@ -662,15 +639,5 @@ div.footerInitial{
     div.cutBackground{
         height: auto;
     }
-    div.defaultFooter{
-        padding: 5% 0 0;
-        margin: 8% auto 0;
-        text-align: CENTER;
-        bottom: 0;
-        margin: 0 -8% -5% -8%;
-        position: absolute;
-        width: 100%;
-        box-sizing: border-box;
-        background-color: #eeeeee;
-    }
+
 }

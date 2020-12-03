@@ -6,6 +6,7 @@ import {
   DownloadButton,
   UserTopic,
 } from "../components/about/AboutStyle";
+import {SiLinkedin} from 'react-icons/si'
 
 import {UserTopics,Skills} from '../../data.json'
 import Canvas from "../components/canvas"
@@ -24,17 +25,17 @@ const IndexPage = () => {
               based out of Gudgaon.
             </p>
             <DownloadButton
-              href="link_to_resume"
-              download
-              title="Resume"
-            >
-              Download Resume
+              href="https://www.linkedin.com/in/mayankraghuvanshi/"
+              title="Linkedin"
+              target="_blank"
+            ><SiLinkedin/>&nbsp;
+              Find me on LinkedIn
             </DownloadButton>
           </div>
           <Canvas
             skills={Skills}
-            height="400px"
-            width="400px"
+            height="500px"
+            width="500px"
             textColour="#00a69c"
           />
         </UserDescription>

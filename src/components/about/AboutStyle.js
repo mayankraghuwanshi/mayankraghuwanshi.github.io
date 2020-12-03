@@ -52,7 +52,9 @@ export const UserDescription = styled.div`
   }
   canvas{
     max-width: 50%;
-    // overflow: auto;
+    overflow: auto;
+  }
+  
   }
   @media (max-width: 700px) {
     flex-direction: column-reverse;
@@ -65,6 +67,7 @@ export const UserDescription = styled.div`
     }
     canvas{
      
+     
       display : block;
       margin : auto;
     }
@@ -73,7 +76,7 @@ export const UserDescription = styled.div`
 `;
 export const DownloadButton = styled.a`
   width: 298px;
-  height: 71px;
+  height: 61px;
   background-color: rgba(188, 188, 188, 0.1);
   box-sizing: border-box;
   display: flex;

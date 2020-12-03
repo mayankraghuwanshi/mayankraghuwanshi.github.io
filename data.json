@@ -18,19 +18,19 @@
       "id": 1,
       "title": "Experience",
       "description": "I have been working as a SDE at Freecharge, I have sound knowledge of full stack development. I like building up projects from scratch",
-      "path" : "/experience"
+      "path" : "/"
     },
     {
       "id": 2,
       "title": "Projects",
       "description": "I have made alot personal, academics and professional projects. Most of my projects are full stack and build on java-script and java",
-      "path" : "/projects"
+      "path" : "/"
     },
     {
       "id": 3,
       "title": "Education",
       "description": "I have done bachelor of Technology from Guru Gobind Singh Indraprastha University, Delhi in Information Technology.",
-      "path" : "/education"
+      "path" : "/"
     }
   ],
   "Skills": [

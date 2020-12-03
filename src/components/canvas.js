@@ -41,7 +41,7 @@ const Canvas = (props) => {
 }
 
 Canvas.defaultProps = {
-  noMouse: true,
+  noMouse: false,
   dragControl: true
 }
 

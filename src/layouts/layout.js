@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { Location } from "@reach/router"
 import "./layout.css"
 import Navbar from "../components/navbar/Navbar"
+import Footer from '../components/footer/Footer'
 
 
 
@@ -38,6 +39,7 @@ const Layout = ({ children }) => {
                 }
               ><Navbar/>
                 {children}
+                <Footer/>
               </Wrapper>
             )
           }}
