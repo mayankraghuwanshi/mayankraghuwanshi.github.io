@@ -51,8 +51,8 @@ export const UserDescription = styled.div`
     margin-bottom: 15%;
   }
   canvas{
-    max-width: 50%;
-    overflow: auto;
+    max-width: 30%;
+    // overflow: auto;
   }
   
   }
@@ -67,7 +67,7 @@ export const UserDescription = styled.div`
     }
     canvas{
      
-     
+      max-width: 50%;
       display : block;
       margin : auto;
     }
