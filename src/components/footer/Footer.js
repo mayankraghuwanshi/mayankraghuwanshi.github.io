@@ -11,6 +11,12 @@ const FooterWrap = styled.footer`
     text-decoration: none;
     margin : 0px 5px 5px 5px;
   }
+  
+  img {
+    display : block;
+    margin : auto;
+
+  }
   `
 
 
@@ -18,6 +24,7 @@ const Footer = () => (
   <FooterWrap>
     <p align="center">Made with &#10084;&#65039; by Mayank Raghuvanshi</p>
     <p align="center"><a href="https://www.facebook.com/raghuvanshimayank/" target="_blank"><AiFillFacebook/></a><a href="https://www.linkedin.com/in/mayankraghuvanshi/" target="_blank"><AiFillLinkedin/></a><a href="https://www.github.com/mayankraghuwanshi/" target="_blank"><AiFillGithub/></a></p>
+    <img src="https://visitor-badge.glitch.me/badge?page_id=mayankraghuwanshi" alt=""/>
   </FooterWrap>
 );
 Footer.propTypes = {
