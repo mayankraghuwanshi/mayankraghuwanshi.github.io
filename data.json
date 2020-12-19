@@ -7,10 +7,6 @@
     {
       "label": "Experience",
       "path": "/experience"
-    },
-    {
-      "label": "Projects",
-      "path": "/projects"
     }
   ],
   "UserTopics": [
@@ -18,12 +14,12 @@
       "id": 1,
       "title": "Experience",
       "description": "I have been working as a SDE at Freecharge, I have sound knowledge of full stack development. I like building up projects from scratch",
-      "path" : "/"
+      "path" : "/experience"
     },
     {
       "id": 2,
       "title": "Projects",
-      "description": "I have made alot personal, academics and professional projects. Most of my projects are full stack and build on java-script and java",
+      "description": "I have made a lot personal, academic and professional projects. Most of my projects are full stack and built on java-script and java",
       "path" : "/"
     },
     {
